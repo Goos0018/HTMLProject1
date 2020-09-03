@@ -3,7 +3,9 @@ body {
         color: rgba(38, 70, 83);
         font-family: monospace;
         font-size: 100%;
-        line-height: 150%;}
+        line-height: 150%;
+        cursor: wait    ;
+}
 
 
 
@@ -43,22 +45,28 @@ footer {
     width: 180px;
     background-color: rgb(38, 70, 83);
     color:rgb(233, 196, 106);
+    transition: background-color 1s;
+    transform: rotate(10 deg);
+     
 }
 
 .container-1 button:hover {
     background-color: rgb(233, 196, 106);
     color: rgb(38, 70, 83);
+    
 }
 
 .container-1 button a {
     color:rgb(233, 196, 106);
     text-decoration: inherit;
-    font-size: 200%
+    font-size: 200%;
+    filter: 
 } 
 
 .container-1 button a:hover {
     color:rgb(38, 70, 83);
     text-decoration: inherit;
+    
 } 
 
 
