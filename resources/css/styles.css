@@ -28,20 +28,40 @@ footer {
 
 .container-1 {
     display: flex;
-    background-color: rgb(231, 111, 81);
     flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    position:fixed;  
 }
 
 .container-1 div {
     padding: 15px;
 }
 
-.container-1 button {
+.container-1 button{
+    height: 40px;
+    width: 180px;
     background-color: rgb(38, 70, 83);
     color:rgb(233, 196, 106);
+}
+
+.container-1 button:hover {
+    background-color: rgb(233, 196, 106);
+    color: rgb(38, 70, 83);
 }
 
 .container-1 button a {
     color:rgb(233, 196, 106);
     text-decoration: inherit;
+    font-size: 200%
 } 
+
+.container-1 button a:hover {
+    color:rgb(38, 70, 83);
+    text-decoration: inherit;
+} 
+
+
+.header-image img {
+    width: 100%;
+}
