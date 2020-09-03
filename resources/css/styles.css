@@ -1,33 +1,28 @@
 body {
-        background: radial-gradient(circle at center, white 0%, red 100%);
-        color: black;
+        background-color: rgb(233, 196, 106);
+        color: rgba(38, 70, 83);
         font-family: monospace;
         font-size: 100%;
         line-height: 150%;}
-
-header {
-        font-family: "";
-}
-
-footer {
-        color: #000000;
-        font-size: 80%;
-}
-
-h1 {color: green}
-
-
-
-#bandsummary {background-color: rgba(0, 255, 0)}
-
-.logo{
-    margin: 10px;
-    background-color: rgba(240, 248, 255, 0);
-}
 
 nav {
 }
 
 .title {
-    background-color: blue
+    background-color: rgb(38, 70, 83);
+    color: rgb(233, 196, 106);
+    text-shadow: 2px 2px 5px black;
+    border-radius: 7px;  
+    box-shadow: 0px 0px 10px black inset;
+    text-transform:uppercase;
     }
+
+.header-image {
+    height: auto;
+    box-shadow: 0px 0px 50px black ;
+}
+
+
+footer {
+        font-size: 80%;
+}
