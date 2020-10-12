@@ -46,8 +46,6 @@ footer {
     background-color: rgb(38, 70, 83);
     color:rgb(233, 196, 106);
     transition: background-color 1s;
-    transform: rotate(10 deg);
-     
 }
 
 .container-1 button:hover {
